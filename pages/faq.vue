@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <PageHeader />
-        <PageTitle pageTitle="FAQ" />
-        <Faq />
-        <Footer />
-    </div>
+  <div>
+    <PageHeader />
+    <PageTitle pageTitle="FAQ" />
+    <Faq />
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -13,20 +13,9 @@ import PageTitle from "~/components/Page/PageTitle";
 import Faq from "~/components/Page/Faq";
 import Footer from "~/components/Home/Footer";
 export default {
-    name: "faq",
-    components: {
-        Footer,
-        Faq,
-        PageTitle,
-        PageHeader,
-    },
-    head() {
-        return {
-            title: "CODIUX | FAQ",
-        };
-    },
+  name: "faq",
+  components: { Footer, Faq, PageTitle, PageHeader },
+  head() { return { title: "Cabinet IT | FAQ" }; },
 };
 </script>
-
-<style scoped>
-</style>
+<style scoped></style>
